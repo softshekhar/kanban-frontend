@@ -1,0 +1,6 @@
+node_modules
+.idea
+yarn.lock
+.DS_Store
+parsnip3.iml
+package-lock.json
