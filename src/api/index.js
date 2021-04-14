@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = '<TODO: enter your backend api url here>' //'http://localhost:3001';
+const API_BASE_URL = 'http://[hostname]:[port]';//TODO
 const BEARER = 'Bearer ';
 const BEARER_TOKEN = localStorage.getItem("react-token");
 const token = `${BEARER}${BEARER_TOKEN}`;

@@ -1,3 +1,10 @@
+## Instructions for running as docker container
+1. Build image using below command
+docker build -t kanban-frontend .
+2. Run image using below command
+docker run -d -it -p [port on docker host]:80 kanban-frontend
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
