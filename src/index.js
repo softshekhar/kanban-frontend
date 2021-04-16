@@ -18,9 +18,9 @@ import Keycloak from 'keycloak-js';
 
 //keycloak init options
 let initOptions = {
-    url: 'http://[hostname]:[port]/auth', // TODO
-    realm: '[realm-name]', // TODO
-    clientId: '[client-id]', //TODO
+    url: window.ENV.AUTH_URL, // TODO
+    realm: 'kanban', // TODO
+    clientId: '611290b2-e6ca-4255-b93e-36cbc669db01', //TODO
     onLoad: 'login-required'
 }
 
