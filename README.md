@@ -20,3 +20,9 @@ Deployment yaml files can be found under https://github.com/softshekhar/kanban-k
 
 # Note
 provide configuration values in file public/config.js if not running using kubernetes
+
+#Pending issues to fix
+
+
+#Features to add
+https url instead of http
